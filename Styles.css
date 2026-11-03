@@ -15,61 +15,44 @@ font-size: 2rem;
 }
 
 
-header{
-display: flex;
-align-items: center;
-justify-content: space-between;
-margin :1.5rem auto ;
-padding: 0.8rem 2rem;
-max-width: 1200px;
-background: rgba(225,225,225,0.95);
-border-radius: 12px;
-font-size:2rem ;
-color:black;
-
-
-
-
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.5rem auto;
+    padding: 0.8rem 2rem;
+    max-width: 1200px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    color: #000000;
 }
+
+
 .Basil ul {
-display: flex;
-list-style-type: none;
-list-style: none;
-margin: 0;
-padding: 0;
-gap: 2rem;
-
-
-}
-.Basil ul li{
-
- list-style: none;
- list-style-type: 0;
-
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1.5rem; 
+    align-items: center;
 }
 
-
-
-
-.Basil a{
-
-
-color:black;
-display: inline;
-
-
-
+.Basil ul li a {
+    display: inline-block;
+    color: #000000;
+    text-decoration: none;
+    background-color: #f0f0f0; 
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border: 1px solid #dcdcdc;
 }
 
 
-
-
-.Basil ul li a:hover{
-
-color:#ffffff;
-background-color:aqua;
-}
-
-hr{
-    opacity: 40%;
+.Basil ul li a:hover {
+    color: #ffffff;
+    background-color: aqua; 
+    border-color: aqua;
+    transform: translateY(-2px); 
 }
